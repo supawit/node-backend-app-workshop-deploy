@@ -30,7 +30,7 @@ patches:
 # (ใช้ git SHA แทน latest)
 images:
   - name: ghcr.io/supawit/node-backend-app-workshop:latest
-    newTag: latest   # จะถูกแทนที่ด้วย git SHA โดย CI
+    newTag: "8275287"   # จะถูกแทนที่ด้วย git SHA โดย CI
 
 # คำสั่งสำหรับ Day 1, Lab 7:
 # kubectl apply -k infra/kustomize/overlays/dev/ -n dev
